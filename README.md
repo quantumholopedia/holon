@@ -24,14 +24,14 @@ Name must be specified twice:
 
 Example: 
 ```
-const char CRYPTONOTE_NAME[] = "holopediacoin";
+const char CRYPTONOTE_NAME[] = "furiouscoin";
 ```
 
 **2. in src/CMakeList.txt file** - set_property(TARGET daemon PROPERTY OUTPUT_NAME "YOURCOINNAME**d**")
 
 Example: 
 ```
-set_property(TARGET daemon PROPERTY OUTPUT_NAME "holopediacoind")
+set_property(TARGET daemon PROPERTY OUTPUT_NAME "furiouscoind")
 ```
 
 **Note:** You should also change a repository name.
@@ -182,7 +182,7 @@ Run your daemon with `--print-genesis-tx` argument. It will print out the genesi
 
 Example:
 ```
-holopediacoind --print-genesis-tx
+furiouscoind --print-genesis-tx
 ```
 
 
